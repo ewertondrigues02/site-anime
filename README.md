@@ -21,7 +21,7 @@ Bem-vindo ao **Anime**, um site dinâmico e responsivo criado para os amantes de
 
 ## 📸 Demonstração
 
-![AnimeHub Preview]([https://raw.githubusercontent.com/ewertondrigues02/site-anime/main/preview.png](https://github.com/ewertondrigues02/site-anime/blob/master/img/normal-breadcrumb.jpg))
+![AnimeHub Preview](https://github.com/ewertondrigues02/site-anime/blob/master/img/normal-breadcrumb.jpg)
 
 Acesse o site online: [AnimeHub](https://ewertondrigues02.github.io/site-anime/)
 
