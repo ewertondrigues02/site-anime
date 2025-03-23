@@ -2,13 +2,14 @@
 
 Bem-vindo ao **Anime**, um site dinâmico e responsivo criado para os amantes de animes! Este projeto foi desenvolvido utilizando as principais tecnologias web para garantir uma experiência interativa e agradável.
 
-## 🚀 Tecnologias Utilizadas
+# 🚀 Tecnologias Utilizadas
 
-- **HTML5** – Estrutura semântica e otimizada
-- **CSS3** – Estilização e layout responsivo
-- **JavaScript** – Interatividade e manipulação dinâmica
-- **SASS** – CSS avançado com pré-processamento
-- **Responsividade** – Layout adaptável para diferentes dispositivos
+- 🔗 **[HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)** – Estrutura semântica e otimizada
+- 🎨 **[CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)** – Estilização e layout responsivo
+- ⚡ **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)** – Interatividade e manipulação dinâmica
+- 🎭 **[SASS](https://sass-lang.com/documentation/)** – CSS avançado com pré-processamento
+- 📱 **[Responsividade](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Responsive_Design)** – Layout adaptável para diferentes dispositivos
+
 
 ## 🎯 Funcionalidades
 
@@ -20,7 +21,7 @@ Bem-vindo ao **Anime**, um site dinâmico e responsivo criado para os amantes de
 
 ## 📸 Demonstração
 
-![AnimeHub Preview]([link_da_imagem_preview](https://ewertondrigues02.github.io/site-anime/))
+![AnimeHub Preview](https://ewertondrigues02.github.io/site-anime/)
 
 Acesse o site online: [AnimeHub](https://ewertondrigues02.github.io/site-anime/)
 
