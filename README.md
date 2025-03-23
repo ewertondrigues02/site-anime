@@ -49,9 +49,9 @@ Sinta-se à vontade para contribuir! Faça um **fork**, crie uma **branch**, imp
 
 ## 📬 Contato
 
-📧 Email: desenvolvedor.ewerton.java@gmail.com 
-🔗 LinkedIn: [Ewerton Rodrigues](https://linkedin.com/in/ewerton-rodrigues)  
-🐙 GitHub: [Ewerton Rodrigues](https://github.com/ewertondrigues02)  
+📧 Email: ```desenvolvedor.ewerton.java@gmail.com```
+🔗 LinkedIn: ```[Ewerton Rodrigues](https://linkedin.com/in/ewerton-rodrigues)``` 
+🐙 GitHub: ```[Ewerton Rodrigues](https://github.com/ewertondrigues02)```  
 
 🚀 **Anime - Para quem vive e respira animes!** 🎥🍜
 
