@@ -1,6 +1,6 @@
 # 🎌 Anime - Seu Portal de Animes
 
-Bem-vindo ao **Ani**me, um site dinâmico e responsivo criado para os amantes de animes! Este projeto foi desenvolvido utilizando as principais tecnologias web para garantir uma experiência interativa e agradável.
+Bem-vindo ao **Anime**, um site dinâmico e responsivo criado para os amantes de animes! Este projeto foi desenvolvido utilizando as principais tecnologias web para garantir uma experiência interativa e agradável.
 
 ## 🚀 Tecnologias Utilizadas
 
