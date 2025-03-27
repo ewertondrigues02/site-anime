@@ -676,26 +676,22 @@ ol {
 }
 
 .product__item__pic {
-	height: 325px;
+	height: 265px;
 	position: relative;
 	overflow: hidden;
 	object-fit: fill;
 	border-radius: 20px;
+	transition: transform 0.3s ease-in-out;
+	border: 0.2px solid transparent;
 
 }
 
 .product__item__pic:hover {
-	height: 325px;
+	height:265px;
 	position: relative;
 	overflow: hidden;
 	object-fit: fill;
-	border-radius: 20px;
-	box-shadow: 
-	0 0 15px rgba(255, 0, 0, 0.4), /* Brilho vermelho ao redor */
-	0 4px 20px rgba(255, 0, 0, 0.2), /* Sombra vermelha mais forte */
-	inset 0 0 10px rgba(255, 0, 0, 0.1); /* Brilho interno vermelho */
-transition: 0.2s ease-in-out;
-
+	border-radius: 20px; 
 }
 
 .product__item__pic .ep {
