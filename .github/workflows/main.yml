@@ -1,4 +1,4 @@
-name: 🚀 Deploy to GitHub Pages
+name:  Deploy to GitHub Pages
 
 on:
   push:
@@ -14,17 +14,17 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: 🚚 Checkout código
+      - name:  Checkout código
         uses: actions/checkout@v4
 
-      - name: 📂 Configurar GitHub Pages
+      - name:  Configurar GitHub Pages
         uses: actions/configure-pages@v3
 
-      - name: 🚀 Criar artefato do site
+      - name:  Criar artefato do site
         uses: actions/upload-pages-artifact@v2
         with:
-          path: .  # Pasta onde estão os arquivos do site
+          path: . 
 
-      - name: 📡 Publicar no GitHub Pages
+      - name:  Publicar no GitHub Pages
         uses: actions/deploy-pages@v2
 
