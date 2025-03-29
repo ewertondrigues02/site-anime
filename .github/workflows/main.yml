@@ -23,8 +23,8 @@ jobs:
       - name:  Criar artefato do site
         uses: actions/upload-pages-artifact@v2
         with:
-          path: . 
+          path: .  
 
-      - name:  Publicar no GitHub Pages
+      - name: Publicar no GitHub Pages
         uses: actions/deploy-pages@v2
 
