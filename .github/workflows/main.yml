@@ -32,7 +32,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Ewerton
-        uses: actions/ewerton-build-pages@v1
+        uses: actions/jekyllewe-build-pages@v1
         with:
           source: ./
           destination: ./site-anime
