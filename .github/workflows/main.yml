@@ -1,19 +1,29 @@
+name: 🚀 Deploy to GitHub Pages
+
 on:
-    push:
-        branches:
-            - main
-name: 🚀 Deploy website on push
+  push:
+    branches:
+      - main  # Ou a branch que você está usando
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
+  deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v4
-    
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      with:
-        server: ${{ secrets.ftp_host }}
-        username: ${{ secrets.ftp_user }}
-        password: ${{ secrets.ftp_password }}
+      - name: 🚚 Checkout código
+        uses: actions/checkout@v4
+
+      - name: 📂 Configurar GitHub Pages
+        uses: actions/configure-pages@v3
+
+      - name: 🚀 Fazer deploy
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: .  # Se os arquivos do site estiverem na raiz do repositório
+
+      - name: 📡 Publicar no GitHub Pages
+        uses: actions/deploy-pages@v2
