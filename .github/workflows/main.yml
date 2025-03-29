@@ -3,7 +3,7 @@ name: 🚀 Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Ou a branch que você está usando
+      - main
 
 permissions:
   contents: read
@@ -20,10 +20,11 @@ jobs:
       - name: 📂 Configurar GitHub Pages
         uses: actions/configure-pages@v3
 
-      - name: 🚀 Fazer deploy
+      - name: 🚀 Criar artefato do site
         uses: actions/upload-pages-artifact@v2
         with:
-          path: .  # Se os arquivos do site estiverem na raiz do repositório
+          path: .  # Pasta onde estão os arquivos do site
 
       - name: 📡 Publicar no GitHub Pages
         uses: actions/deploy-pages@v2
+
