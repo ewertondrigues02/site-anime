@@ -258,6 +258,36 @@ ol {
 	}
 }
 
+@keyframes borderAnimation {
+    0% {
+        border-top: 2px solid #f44336;
+        border-right: 2px solid transparent;
+        border-bottom: 2px solid transparent;
+        border-left: 2px solid transparent;
+    }
+    25% {
+        border-top: 2px solid #f44336;
+        border-right: 2px solid #f44336;
+        border-bottom: 2px solid transparent;
+        border-left: 2px solid transparent;
+    }
+    50% {
+        border-top: 2px solid #f44336;
+        border-right: 2px solid #f44336;
+        border-bottom: 2px solid #f44336;
+        border-left: 2px solid transparent;
+    }
+    75% {
+        border-top: 2px solid #f44336;
+        border-right: 2px solid #f44336;
+        border-bottom: 2px solid #f44336;
+        border-left: 2px solid #f44336;
+    }
+    100% {
+        border: 2px solid #f44336;
+    }
+}
+
 .spacial-controls {
 	position: fixed;
 	width: 111px;
@@ -685,6 +715,25 @@ ol {
 	transition: transform 0.3s ease-in-out;
 	border: 0.2px solid transparent;
 
+}
+
+.product__item__pic::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.product__item__pic:hover::before {
+    opacity: 1;
+    animation: borderAnimation .5s linear forwards;
 }
 
 .product__item__pic:hover {
