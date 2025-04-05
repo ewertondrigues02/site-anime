@@ -135,7 +135,7 @@ ol {
 	top: -6px;
 	height: 32px;
 	width: 4px;
-	background: #e53637;
+	background: #36e1f4;
 	content: "";
 }
 
@@ -170,7 +170,7 @@ ol {
 	font-size: 13px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: black;
 	letter-spacing: 2px;
 }
 
@@ -183,8 +183,8 @@ ol {
 
 .site-btn {
 	font-size: 13px;
-	color: #ffffff;
-	background: #e53637;
+	color: black;
+	background: #36e1f4;
 	font-weight: 700;
 	border: none;
 	border-radius: 2px;
@@ -223,7 +223,7 @@ ol {
 	0% {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
-		border: 4px solid #f44336;
+		border: 4px solid #36e1f4;
 		border-left-color: transparent;
 	}
 	50% {
@@ -235,7 +235,7 @@ ol {
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
-		border: 4px solid #f44336;
+		border: 4px solid #36e1f4;
 		border-left-color: transparent;
 	}
 }
@@ -243,7 +243,7 @@ ol {
 @-webkit-keyframes loader {
 	0% {
 		-webkit-transform: rotate(0deg);
-		border: 4px solid #f44336;
+		border: 4px solid #36e1f4;
 		border-left-color: transparent;
 	}
 	50% {
@@ -253,38 +253,38 @@ ol {
 	}
 	100% {
 		-webkit-transform: rotate(360deg);
-		border: 4px solid #f44336;
+		border: 4px solid #36e1f4;
 		border-left-color: transparent;
 	}
 }
 
 @keyframes borderAnimation {
     0% {
-        border-top: 2px solid #f44336;
+        border-top: 2px solid #36e1f4;
         border-right: 2px solid transparent;
         border-bottom: 2px solid transparent;
         border-left: 2px solid transparent;
     }
     25% {
-        border-top: 2px solid #f44336;
-        border-right: 2px solid #f44336;
+        border-top: 2px solid #36e1f4;
+        border-right: 2px solid #36e1f4;
         border-bottom: 2px solid transparent;
         border-left: 2px solid transparent;
     }
     50% {
-        border-top: 2px solid #f44336;
-        border-right: 2px solid #f44336;
-        border-bottom: 2px solid #f44336;
+        border-top: 2px solid #36e1f4;
+        border-right: 2px solid #36e1f4;
+        border-bottom: 2px #36e1f4;
         border-left: 2px solid transparent;
     }
     75% {
-        border-top: 2px solid #f44336;
-        border-right: 2px solid #f44336;
-        border-bottom: 2px solid #f44336;
-        border-left: 2px solid #f44336;
+        border-top: 2px solid #36e1f4;
+        border-right: 2px solid #36e1f4;
+        border-bottom: 2px solid #36e1f4;
+        border-left: 2px solid #36e1f4;
     }
     100% {
-        border: 2px solid #f44336;
+        border: 2px solid #36e1f4;
     }
 }
 
@@ -327,7 +327,7 @@ ol {
 	border: none;
 	border-bottom: 2px solid #333;
 	background: 0 0;
-	color: #999;
+	color: black;
 }
 
 .search-close-switch {
@@ -359,6 +359,7 @@ ol {
 
 .header {
 	background: #0e0e0e;
+	
 }
 
 .header__logo {
@@ -371,6 +372,7 @@ ol {
 
 .header__menu {
 	text-align: center;
+	margin-top: 5px;
 }
 
 .header__menu ul li {
@@ -381,8 +383,8 @@ ol {
 }
 
 .header__menu ul li.active a {
-	background: #e53637;
-	color: #ffffff;
+	background: #36e1f4;
+	color: black;
 	border-radius: 10px;
 }
 
@@ -415,7 +417,7 @@ ol {
 	left: 0;
 	top: 82px;
 	width: 150px;
-	background: #ffffff;
+	background: white;
 	text-align: left;
 	padding: 5px 0;
 	z-index: 9;
@@ -434,7 +436,7 @@ ol {
 
 .header__menu ul li .dropdown li a {
 	font-size: 14px;
-	color: #111111;
+	color: black;
 	font-weight: 500;
 	padding: 5px 20px;
 	margin-left: 15px;
@@ -442,7 +444,7 @@ ol {
 
 .header__menu ul li a {
 	font-size: 15px;
-	color: #b7b7b7;
+	color: white;
 	display: block;
 	font-weight: 700;
 	-webkit-transition: all, 0.5s;
@@ -506,8 +508,8 @@ ol {
 
 .hero__text .label {
 	font-size: 13px;
-	color: #e53637;
-	background: #ffffff;
+	color: black;
+	background: #36e1f4;
 	padding: 5px 14px 3px;
 	display: inline-block;
 	position: relative;
@@ -561,8 +563,8 @@ ol {
 
 .hero__text a span {
 	font-size: 13px;
-	color: #ffffff;
-	background: #e53637;
+	color: black;
+	background: #36e1f4;
 	display: inline-block;
 	font-weight: 700;
 	letter-spacing: 2px;
@@ -575,7 +577,7 @@ ol {
 .hero__text a i {
 	font-size: 20px;
 	display: inline-block;
-	background: #e53637;
+	background: #36e1f4;
 	padding: 11px 5px 16px 8px;
 	color: #ffffff;
 	border-radius: 0 4px 4px 0;
@@ -746,8 +748,8 @@ ol {
 
 .product__item__pic .ep {
 	font-size: 13px;
-	color: #ffffff;
-	background: #e53637;
+	color: black;
+	background: #36e1f4;
 	display: inline-block;
 	padding: 2px 12px;
 	border-radius: 4px;
@@ -821,7 +823,7 @@ ol {
 	top: -6px;
 	height: 32px;
 	width: 4px;
-	background: #e53637;
+	background: #36e1f4;
 	content: "";
 }
 
@@ -862,8 +864,8 @@ ol {
 
 .product__sidebar__view__item .ep {
 	font-size: 13px;
-	color: #ffffff;
-	background: #e53637;
+	color: black;
+	background: #36e1f4;
 	display: inline-block;
 	padding: 2px 12px;
 	border-radius: 8px;
@@ -1153,8 +1155,8 @@ ol {
 
 .anime__details__btn .follow-btn {
 	font-size: 13px;
-	color: #ffffff;
-	background: #e53637;
+	color: black;
+	background: #36e1f4;
 	display: inline-block;
 	font-weight: 700;
 	letter-spacing: 2px;
@@ -1166,8 +1168,8 @@ ol {
 
 .anime__details__btn .watch-btn span {
 	font-size: 13px;
-	color: #ffffff;
-	background: #e53637;
+	color: black;
+	background: #36e1f4;
 	display: inline-block;
 	font-weight: 700;
 	letter-spacing: 2px;
@@ -1180,9 +1182,9 @@ ol {
 .anime__details__btn .watch-btn i {
 	font-size: 20px;
 	display: inline-block;
-	background: #e53637;
+	background: #36e1f4;
 	padding: 11px 5px 16px 8px;
-	color: #ffffff;
+	color: black;
 	border-radius: 0 4px 4px 0;
 }
 
@@ -1258,11 +1260,11 @@ ol {
 
 .anime__details__form form button {
 	font-size: 11px;
-	color: #ffffff;
+	color: black;
 	font-weight: 700;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	background: #e53637;
+	background: #36e1f4;
 	border: none;
 	padding: 10px 15px;
 	border-radius: 2px;
@@ -1396,7 +1398,7 @@ ol {
 
 .breadcrumb__links a i {
 	margin-right: 5px;
-	color: #e53637;
+	color: #36e1f4;
 }
 
 .breadcrumb__links a:after {
@@ -1493,7 +1495,7 @@ ol {
 }
 
 .blog__item__text p span {
-	color: #e53637;
+	color: #36e1f4;
 	margin-right: 5px;
 }
 
@@ -1723,7 +1725,7 @@ ol {
 }
 
 .blog__details__comment__item__text a:hover {
-	background: #e53637;
+	background: #36e1f4;
 }
 
 .blog__details__form {
@@ -1921,7 +1923,7 @@ ol {
 }
 
 .login__register .primary-btn {
-	background: #e53637;
+	background: #36e1f4;
 	padding: 12px 42px;
 	border-radius: 10px;
 }
@@ -2009,7 +2011,7 @@ ol {
 }
 
 .signup .login__form h5 a {
-	color: #e53637;
+	color: #36e1f4;
 	font-weight: 700;
 }
 
@@ -2053,10 +2055,10 @@ ol {
 .page-up a {
 	display: inline-block;
 	font-size: 36px;
-	color: #ffffff;
+	color: black;
 	height: 50px;
 	width: 50px;
-	background: #e53637;
+	background: #36e1f4;
 	line-height: 50px;
 	text-align: center;
 	border-radius: 50%;
@@ -2097,7 +2099,7 @@ ol {
 }
 
 .footer__copyright__text a {
-	color: #e53637;
+	color: #36e1f4;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
