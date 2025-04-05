@@ -453,6 +453,7 @@ ol {
 
 .header__menu ul li:hover a {
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .header__menu ul li:hover .dropdown {
@@ -797,6 +798,7 @@ ol {
   overflow: hidden;
   object-fit: fill;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .product__item__pic .ep {
@@ -1073,6 +1075,7 @@ ol {
 
 .product__pagination a:hover {
   color: #ffffff;
+  cursor: pointer;
 }
 
 .product__pagination a.current-page {
@@ -1330,7 +1333,7 @@ ol {
 }
 
 .anime__video__player .plyr--video {
-  border-radius: 5px;
+  border-radius: 20px;
   background: transparent;
 }
 
@@ -1434,6 +1437,7 @@ ol {
 .anime__details__episodes a:hover {
   color: #000000;
   background: #ffffff;
+  cursor: pointer;
 }
 
 /*---------------------
@@ -1600,7 +1604,7 @@ ol {
   font-size: 15px;
   color: #ffffff;
   padding: 16px 35px 14px 20px;
-  border-radius: 2px;
+  border-radius: 20px;
   margin-right: 6px;
 }
 
@@ -1610,18 +1614,22 @@ ol {
 
 .blog__details__title .blog__details__social a.facebook {
   background: #3b5998;
+  border-radius: 25px;
 }
 
 .blog__details__title .blog__details__social a.pinterest {
   background: #ca2027;
+  border-radius: 25px;
 }
 
 .blog__details__title .blog__details__social a.linkedin {
   background: #0372b1;
+  border-radius: 25px;
 }
 
 .blog__details__title .blog__details__social a.twitter {
   background: #39a1f2;
+  border-radius: 25px;
 }
 
 .blog__details__title .blog__details__social a i {
@@ -1634,6 +1642,7 @@ ol {
 
 .blog__details__pic img {
   min-width: 100%;
+  border-radius: 20px;
 }
 
 .blog__details__text {
@@ -1695,14 +1704,18 @@ ol {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px 0 15px;
   margin-bottom: 65px;
+
+  
 }
 
 .blog__details__btns__item {
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 .blog__details__btns__item.next__btn {
   text-align: right;
+  border-radius: 20px;
 }
 
 .blog__details__btns__item h5 a {
@@ -1732,15 +1745,18 @@ ol {
 .blog__details__comment__item {
   margin-bottom: 40px;
   overflow: hidden;
+  border-radius: 20px;
 }
 
 .blog__details__comment__item.blog__details__comment__item--reply {
   padding-left: 112px;
+  border-radius: 20px;
 }
 
 .blog__details__comment__item__pic {
   float: left;
   margin-right: 40px;
+  border-radius: 20px;
 }
 
 .blog__details__comment__item__text {
@@ -1773,7 +1789,7 @@ ol {
   background: rgba(255, 255, 255, 0.1);
   padding: 6px 20px;
   letter-spacing: 2px;
-  border-radius: 2px;
+  border-radius: 20px;
   margin-right: 14px;
   -webkit-transition: all, 0.3s;
   -o-transition: all, 0.3s;
@@ -1782,10 +1798,14 @@ ol {
 
 .blog__details__comment__item__text a:hover {
   background: #36e1f4;
+  cursor: pointer;
+  color: black;
+  border-radius: 20px;
 }
 
 .blog__details__form {
   padding-top: 50px;
+  border-radius: 25px;
 }
 
 .blog__details__form h4 {
@@ -1801,29 +1821,34 @@ ol {
   font-size: 15px;
   color: #a6a6a6;
   padding-left: 20px;
-  border-radius: 2px;
+  border-radius: 25px;
   border: none;
   margin-bottom: 30px;
 }
 
 .blog__details__form form input::-webkit-input-placeholder {
   color: #a6a6a6;
+  border-radius: 25px;
 }
 
 .blog__details__form form input::-moz-placeholder {
   color: #a6a6a6;
+  border-radius: 25px;
 }
 
 .blog__details__form form input:-ms-input-placeholder {
   color: #a6a6a6;
+  border-radius: 25px;
 }
 
 .blog__details__form form input::-ms-input-placeholder {
   color: #a6a6a6;
+  border-radius: 25px;
 }
 
 .blog__details__form form input::placeholder {
   color: #a6a6a6;
+  border-radius: 25px;
 }
 
 .blog__details__form form textarea {
@@ -1833,7 +1858,7 @@ ol {
   font-size: 15px;
   color: #a6a6a6;
   padding-left: 20px;
-  border-radius: 2px;
+  border-radius: 25px;
   padding-top: 12px;
   resize: none;
   border: none;
@@ -1842,14 +1867,17 @@ ol {
 
 .blog__details__form form textarea::-webkit-input-placeholder {
   color: #a6a6a6;
+
 }
 
 .blog__details__form form textarea::-moz-placeholder {
   color: #a6a6a6;
+
 }
 
 .blog__details__form form textarea:-ms-input-placeholder {
   color: #a6a6a6;
+
 }
 
 .blog__details__form form textarea::-ms-input-placeholder {
@@ -2024,17 +2052,17 @@ ol {
 
 .login__social__links ul li a.facebook {
   background: #4267b2;
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .login__social__links ul li a.google {
   background: #ff4343;
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .login__social__links ul li a.twitter {
   background: #1da1f2;
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .login__social__links ul li a i {
